@@ -45,7 +45,7 @@ async function getUpcomingMovies()
 function createMovie(movie)
 {    
     const bannerUI = `
-    <div class="flex-1 basis-1/4">
+    <div class="flex-1 basis-1/4 border-4 border-black">
     <img class="w-1/4 min-h-40 max-h-96" src=${"https://image.tmbd.org/t/p/w500" + movie.poster_path} alt="The movie poster here">
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">${movie.original_title}</div>
